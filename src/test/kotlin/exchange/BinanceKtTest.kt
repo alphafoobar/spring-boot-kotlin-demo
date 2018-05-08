@@ -1,10 +1,11 @@
 package exchange
 
-import org.junit.Assert.assertThat
+import org.junit.jupiter.api.Test
 
 class BinanceKtTest {
 
-    @org.junit.Test
+    @Test
     fun subscribe() {
+        Binance().subscribe()
     }
 }
